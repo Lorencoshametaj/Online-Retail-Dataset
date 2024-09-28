@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Replace with the path to the locally downloaded Excel file
-file_path = "C:/Users/Lorel/OneDrive/Desktop/Arduino/Dataset/Online Retail.xlsx"
+# Replace with the path to the locally Excel file
+file_path = "../Dataset/Online Retail.xlsx"
 
 # Load the dataset from the local Excel file
 data = pd.read_excel(file_path)
