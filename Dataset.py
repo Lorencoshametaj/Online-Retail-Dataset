@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Replace with the path to the locally Excel file
-file_path = ".../Dataset/Online Retail.xlsx"
+file_path = "Online Retail.xlsx"
 
 # Load the dataset from the local Excel file
 data = pd.read_excel(file_path)
